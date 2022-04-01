@@ -1,0 +1,65 @@
+body{
+    background-image:url("./yanmis-ahsap-arka-plan-duvar-kagidi-2560x1080_14.jpg");
+    min-height:   100%;
+}
+#counter {
+    color:#001d4b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+#container{
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  display: block;
+  background-color: #558573;
+  opacity: 0.9;
+  height: 600px;
+  border-radius: 100px;
+  
+}
+
+.button{
+    background-color: #89675c;
+    text-decoration:none;
+    padding:1rem 2rem;
+    border-radius:100px;
+    box-shadow: 76px -8px 57px 17px rgba(122,8,42,0.5) inset;
+    width:25%;
+    height:10%;
+    transition: 1s;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    }
+    
+    .button:hover{
+    background-color:#b5b69c;
+    box-shadow: 76px -8px 57px 17px rgba(122,8,42,0.5) inset;
+    color: #001d4b;
+    transform: scale(0.5,0.5);
+    border:solid #001d4b 3px;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        right:0;
+    }
+
+    footer > span {
+       
+        display: flex;
+        font-size: 1.9em;
+        color: black;
+        height: 100%;
+        bottom: 0;
+        right:0;
+      }
