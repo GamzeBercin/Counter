@@ -11,6 +11,6 @@ decreaseDOM.addEventListener("click",clickEvent)
 function clickEvent(){
 console.log(this.id)
 this.id=="increase"? counter+=1 : counter-=1
+localStorage.setItem('counter',counter)
 counterDOM.innerHTML=counter
-
 }
